@@ -20,7 +20,7 @@ body {
 #scene {
     position: absolute;
     top: 25vh;
-    left: 40vw;
+    left: 39vw;
     width: 500px;
     height: 500px;
 }
@@ -28,10 +28,10 @@ body {
 #scene p {
     position: absolute;
     color: white;
-    margin-top: 300px;
-    margin-left: 40px;
+    margin-top: 40vh;
+    margin-left: 3vw;
     transform: translate(-50%,-50%);
-    font-size: 2em;
+    font-size: 1.5vw;
     width: 500px;
     font-family: 'Roboto Mono';
     font-weight: bolder;
