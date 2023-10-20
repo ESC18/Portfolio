@@ -5,16 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" type="text/css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik+Mono+One&display=swap"
+        rel="stylesheet">
+    <title>SC:Home</title>
 </head>
 <header>
 
 </header>
 
 <body>
-    <div id="scene" class="centered-content">
+    <div id="scene">
         <img data-depth="0.4" class="SCimg" src="Images/sc.png" alt="White SC">
         <img data-depth="0.3" class="SCimg" src="Images/SC-1.png" alt="Orange SC">
+    </div>
+    <div id="sceneTwo">
+        <p data-depth="0.3">Professional Web-Dev</p>
     </div>
 
     <div class="waveDiv">
@@ -33,6 +40,8 @@
     <script>
         var scene = document.getElementById("scene");
         var parallaxInstance = new Parallax(scene);
+        var sceneTwo = document.getElementById("sceneTwo");
+        var parallaxInstance = new Parallax(sceneTwo);
     </script>
 </body>
 

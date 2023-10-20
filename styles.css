@@ -26,6 +26,27 @@ body {
 
 }
 
+#sceneTwo {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 65%;
+    left: 38.5%;
+    text-align: center;
+}
+
+#sceneTwo p {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    width: 500px;
+    font-family: 'Roboto Mono';
+    font-weight: bolder;
+}
+
 .SCimg {
     position: absolute;
     width: 15vw;
@@ -84,18 +105,18 @@ body {
     background-size: 500px 100px;
 }
 .wave5 {
-    animation: animate 7.5s linear infinite;
+    animation: animate2 7.5s linear infinite;
     z-index: 1000; 
 }
 .wave6 {
-    animation: animate 15s linear infinite;
+    animation: animate2 15s linear infinite;
     z-index: 999;
     opacity: 0.75;  
     bottom: 10px;
     background-size: 1500px 100px;
 }
 .wave7 {
-    animation: animate 30s linear infinite;
+    animation: animate2 30s linear infinite;
     z-index: 998;
     opacity: 0.5; 
     bottom: 20px;  
@@ -103,7 +124,7 @@ body {
 
 }
 .wave8 {
-    animation: animate 45s linear infinite;
+    animation: animate2 45s linear infinite;
     z-index: 997;
     opacity: 0.25; 
     bottom: 30px;  
@@ -115,6 +136,16 @@ body {
     }
     100% {
         background-position-x: 2000px;
+    }
+    
+}
+
+@keyframes animate2 {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: -2000px;
     }
     
 }
