@@ -1,6 +1,4 @@
-// button1 = document.getElementById("");
-
-// button1.addEventListener("click", (event) => {
-//     button1.style.color = "red";
-// });
-
+import data from "./projectData.js";
+for (let key in data) {
+    console.log(data[key]);
+}

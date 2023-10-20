@@ -1,56 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="/Images/SC-1.png">
     <link rel="stylesheet" href="CSS/styles.css" type="text/css">
+    <link rel="stylesheet" href="CSS/cards.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik+Mono+One&display=swap"
         rel="stylesheet">
-    <title>SC: Home</title>
+    <title>SC: Projects</title>
 </head>
 <header>
-    <a href="#"><img class="SCLogo" src="Images/SC-1.png" alt="SC Logo"></a>
+    <a href="index.html"><img class="SCLogo" src="Images/SC-1.png" alt="SC Logo"></a>
     <nav>
         <ul class="navLinks">
             <li><a href="projects.html">Projects</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Github</a></li>
         </ul>
-    </nav>
 </header>
 <body>
-    <div id="scene">
-        <img data-depth="0.5" class="SCimg" src="Images/sc.png" alt="White SC">
-        <img data-depth="0.3" class="SCimg" src="Images/SC-1.png" alt="Orange SC">
-        <p data-depth="0.3">Professional Web-Dev</p>
-    </div>
-    <div id="sceneTwo">
-        
-    </div>
-
     <div class="waveDiv">
-        <div class="wave wave1"></div>
-        <div class="wave wave2"></div>
-        <div class="wave wave3"></div>
-        <div class="wave wave4"></div>
         <div class="waveTwo wave5"></div>
         <div class="waveTwo wave6"></div>
         <div class="waveTwo wave7"></div>
         <div class="waveTwo wave8"></div>
     </div>
 
-    <script src="JS/script.js" type="module"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-    <script>
-        var scene = document.getElementById("scene");
-        var parallaxInstance = new Parallax(scene);
-        var sceneTwo = document.getElementById("sceneTwo");
-        var parallaxInstance = new Parallax(sceneTwo);
-    </script>
-</body>
+    <div id="container">
 
+    </div>
+</body>
 </html>
