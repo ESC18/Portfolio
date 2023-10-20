@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <title>Document</title>
-    <script src="JS/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 </head>
 <header>
 
@@ -15,8 +13,17 @@
 
 <body>
     <div id="scene">
-        <img class="SCimg whiteSC" data-depth="0.2" src="Images/sc.png" alt="White SC">
-        <img class="SCimg orangeSC" data-depth="0.3" src="Images/SC-1.png" alt="Orange SC">
+        <img data-depth="0.3" class="SCimg" src="Images/sc.png" alt="White SC">
+        <img data-depth="0.2" class="SCimg" src="Images/SC-1.png" alt="Orange SC">
+
     </div>
+
+    <script src="JS/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+        var scene = document.getElementById("scene");
+        var parallaxInstance = new Parallax(scene);
+    </script>
 </body>
+
 </html>
