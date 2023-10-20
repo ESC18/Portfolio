@@ -7,3 +7,16 @@
 body {
     background-color: black;
 }
+
+.SCimg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 15vw;
+}
+
+.orangeSC {
+    top: 49%;
+    left: 51%;
+}
