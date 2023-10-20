@@ -15,10 +15,11 @@ header {
     position: absolute;
 }
 
-.ESCLogo {
+.SCLogo {
     position: absolute;
     z-index: 999;
-    width: 90px;
+    width: 70px;
+    bottom: 0;
     margin-left: 10px;
     cursor: pointer;
 }
