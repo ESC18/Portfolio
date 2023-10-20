@@ -10,16 +10,14 @@ body {
 
 #scene {
     position: absolute;
-    transform: translate(-50%,-50%);
-    width: 100%;
-    height: 100%;
-    background-color: aqua;
+    top: 30vh;
+    left: 44vw;
+    width: 500px;
+    height: 500px;
+
 }
 
 .SCimg {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     width: 15vw;
 }
