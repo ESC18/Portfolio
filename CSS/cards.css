@@ -47,6 +47,7 @@
     position: relative;
     min-height: 200px;
     max-height: 250px;
+    max-width: 450px;
     left: 50%;
     transform: translate(-50%);
     margin-top: 25px;

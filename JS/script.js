@@ -17,6 +17,7 @@ for (let key of projectKeys) {
     githubLink.classList.add("github");
     githubLink.href = project.github;
     githubLink.textContent = "Github";
+    githubLink.target = "_blank"
 
     const updateDate = document.createElement("div");
     updateDate.classList.add("update");
