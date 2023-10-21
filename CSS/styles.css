@@ -194,3 +194,13 @@ nav {
     }
     
 }
+
+.copyright {
+    z-index: 2000;
+    font-family: 'Rubik Mono One';
+    position: absolute;
+    left: 50%;
+    top: 98%;
+    transform: translate(-50%,-98%);
+    color: darkslategray;
+}
