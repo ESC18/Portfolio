@@ -54,6 +54,21 @@ nav {
     padding: 30px 3%;
 }
 
+.grey {
+    color: grey;
+    cursor:cell;
+    animation: all 0.2s;
+}
+
+.grey:hover {
+    color: darkslategrey;
+}
+
+.grey:hover::after {
+    content: ":Coming soon";
+}
+
+
 #scene {
     position: absolute;
     top: 25vh;

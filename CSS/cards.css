@@ -1,0 +1,39 @@
+#container {
+    position: absolute;
+    width: 100%;
+    top: 140px;
+}
+
+.container {
+    display: inline-block;
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.img {
+    position: relative;
+    min-height: 200px;
+    max-height: 250px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 25px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.title {
+    font-family: 'Rubik Mono One';
+    margin-left: 25px;
+}
+
+.description {
+    width: 450px;
+    height: 45px;
+    margin-left: 25px;
+    font-family: 'Roboto Mono';
+    overflow-y:scroll;
+    color: darkslategray;
+}
