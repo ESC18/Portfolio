@@ -6,7 +6,7 @@ const data = {
         github: "#",
         imgpath: "../ProjectImages/test.png",
         imgalt: "this is an image",
-        update: true,
+        update: false,
         updateDate: "10/21/2023"
     },
 };
