@@ -157,14 +157,14 @@ nav {
     animation: animate2 15s linear infinite;
     z-index: 994;
     opacity: 0.75;  
-    bottom: 10px;
+    top: 10px;
     background-size: 1500px 100px;
 }
 .wave7 {
     animation: animate2 30s linear infinite;
     z-index: 993;
     opacity: 0.5; 
-    bottom: 20px;  
+    top: 20px;  
     background-size: 1000px 100px;
 
 }
@@ -172,7 +172,7 @@ nav {
     animation: animate2 45s linear infinite;
     z-index: 992;
     opacity: 0.25; 
-    bottom: 30px;  
+    top: 30px;  
     background-size: 500px 100px;
 }
 @keyframes animate {
@@ -211,7 +211,7 @@ nav {
     height: 50px;
     z-index: 2000;
     margin-left: 100px;
-    top: 120px;
+    top: 135px;
 }
 
 #search {
@@ -232,4 +232,21 @@ nav {
     font-weight: 700;
 }
 
+.noResult {
+    position: absolute;
+    color: white;
+    font-family: 'Roboto Mono';
+    font-size: 30px;
+    left: 50%;
+    top: 300px;
+    max-width: 667px;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+
+.speel {
+    font-size: 15px;
+    color: white;
+    top: 400px;  
+}
 

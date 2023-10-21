@@ -2,7 +2,7 @@ import data from "./projectData.js";
 
 const container = document.getElementById("container"); 
 
-const projectKeys = Object.keys(data).reverse();
+const projectKeys = Object.keys(data);
 
 for (let key of projectKeys) {
     const project = data[key]; 
