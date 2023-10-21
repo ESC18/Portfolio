@@ -4,6 +4,21 @@
     top: 140px;
 }
 
+.github {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 35px;
+    z-index: 200;
+    font-size: 20px;
+    font-family: 'Rubik Mono One';
+    background-color: white;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 5px;
+    text-decoration:underline;
+    color: #FF6600;
+}
+
 .container {
     display: inline-block;
     width: 500px;
