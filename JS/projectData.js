@@ -1,24 +1,24 @@
 const data = {
     0: {
-        title: "Hello world",
-        description: "This is a fake description",
-        date: "04/05/2023",
-        github: "ksjdhfkljsdhf",
+        title: "Hello World",
+        description: "This is a test item",
+        date: "10/20/2023",
+        github: "#",
         imgpath: "../ProjectImages/test.png",
+        imgalt: "this is an image",
+        update: true,
+        updateDate: "10/21/2023"
     },
-    1: {
-        title: "",
-        description: "",
-        date: "",
-        github: "",
-        imgpath: "",
-    },
-    2: {
-        title: "",
-        description: "",
-        date: "",
-        github: "",
-        imgpath: "",
-    }
 };
 export default data;
+
+// 0: {
+//     title: "",
+//     description: "",
+//     date: "",
+//     github: "#",
+//     imgpath: "../ProjectImages/",
+//     imgalt: "",
+//     update: false,
+//     updateDate: ""
+// },
