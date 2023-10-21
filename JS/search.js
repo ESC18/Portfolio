@@ -9,7 +9,9 @@ function searchbarFunc() {
             const project = data[key];
             const card = document.getElementById(`card_${key}`);
 
-            if (project.title.toLowerCase().includes(searchText) || project.description.toLowerCase().includes(searchText) || project.imgalt.toLowerCase().includes(searchText) || project.date.toLowerCase().includes(searchText) || project.updateDate.toLowerCase().includes(searchText) || project.github.toLowerCase().includes(searchText)) {
+            if (project.title.toLowerCase().includes(searchText) || 
+                    project.description.toLowerCase().includes(searchText))
+            {
                 card.style.display = "inline-block";
             }
             else {
@@ -18,6 +20,25 @@ function searchbarFunc() {
         }
     }
 }
+
+function tokenization(str) {
+    str.toLowerCase();  
+    return str.split(" ");  
+}
+
+function textToTerms(Arr) {
+    let newArray = [];
+    Arr.foreach((element) => newArray.concat(tokenization(element)));
+    return newArray;
+}
+
+function scanner(query, document) {
+    let counter = 0;
+    query.foreach((word) => {if (document.includes(word)) {counter += 1}});
+    return counter;
+}
+
+
 
 searchbar.addEventListener("input", searchbarFunc);
 window.addEventListener("load", searchbarFunc);
