@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="CSS/cards.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik+Mono+One&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono&family=Rubik+Mono+One&display=swap"
         rel="stylesheet">
     <title>SC: Projects</title>
 </head>
@@ -32,6 +33,46 @@
         <div class="waveTwo wave8"></div>
     </div>
 
-    
+    <div id="scene2">
+        <img data-depth="0.7" class="SCimg" src="Images/sc.png" alt="White SC">
+        <img data-depth="0.4" class="SCimg" src="Images/SC-1.png" alt="Orange SC">
+    </div>
+
+    <span class="aboutSection">
+        <p class="directions">move your mouse to move the light!</p>
+        <h1>
+            <sc>SC</sc>: Professional Web Dev
+        </h1>
+        <h4>Bio:</h4>
+        <p class="desc"><scc>SC</scc>is an <strong><em>American</em></strong> Web Developer and has been independantly working on near little projects since 2023. Instead of choosing to keep said projects for himself, he figured it would do better if everyone had access to them. Hence the creation of this neat little site. Through the power of the internet (and <scc>SC</scc>'s super awesome web dev capabilities) this website was born. By navigating through the various sections you can find awesome and neat ways to up your own web dev game and also check out all the neat projects <scc>SC</scc> has made.<br> If you want to support this cause, just share it with all of your friends and not-friends and various strangers on the road (while still being safe of course), and send SC ideas through github. If there even is a way to do that. Otherwise just being supportive is plenty enough. Now of course you probably didn't come all this way just to read some boring words - you wanna know whats coming next don't ya? Well too bad you can't mwahahahahaha.<br> Just kidding, if you wanna figure it out, you'll have to find the list. It's somewhere on this page ;)</p>
+        <ol>
+            <li>The Readme-inator</li>
+            <li>The Password-inator</li>
+            <li>The EncourageMe-inator</li>
+            <li>The TemplateSite-inator</li>
+            <li>The Checklist-inator</li>
+        </ol>
+
+
+    </span>
+
+
+
+    <span id="light"></span>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+        var scene2 = document.getElementById("scene2");
+        var parallaxInstance = new Parallax(scene2);
+    </script>
+    <script>
+        let cursor = document.getElementById("light");
+        document.addEventListener("mousemove", function (s) {
+            let x = s.clientX;
+            let y = s.clientY;
+            light.style.top = y + "px";
+            light.style.left = x + "px";
+        })
+    </script>
 </body>
+
 </html>
