@@ -7,8 +7,11 @@ const projectKeys = Object.keys(data).reverse();
 for (let key of projectKeys) {
     const project = data[key]; 
 
+    const cardID = `card_${key}`;
+
     const projectDiv = document.createElement("div");
     projectDiv.classList.add("container");
+    projectDiv.id = cardID;
 
     const githubLink = document.createElement("a");
     githubLink.classList.add("github");
@@ -46,3 +49,4 @@ for (let key of projectKeys) {
     projectDiv.appendChild(descriptionP);
     container.appendChild(projectDiv);
 }
+
