@@ -7,7 +7,7 @@
 * GIT
 * Figma
 * Parallax 
-* Chrome & Firefox Web developer tools
+* Firefox Web developer tools
 
 ## Description of Application:
 This Website is a new and improved portfolio page that was made to better represent my current and future web development skills. It has the ability to store and display data through DOM manipulation and is easy to update compared to the previous versions of my portfolio page. There are also future updates coming which will introduce various tools that web developers can use.
