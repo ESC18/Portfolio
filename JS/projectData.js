@@ -3,7 +3,7 @@
 //     description: "",
 //     date: "",
 //     github: "#",
-//     imgpath: "../ProjectImages/",
+//     imgpath: "../Images/ProjectImages/",
 //     imgalt: "",
 //     update: false,
 //     updateDate: "" 
